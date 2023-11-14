@@ -33,123 +33,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+*/
 
-/* // global styles */
-section {
-  h3 {
-    margin-bottom: 24px;
-    font-family: var(--effra-font) !important;
-    font-size: 20px !important;
-    font-weight: 700 !important;
-    line-height: 38px;
-    letter-spacing: 0em;
-    text-align: right;
-  }
-}
-/* // Carosuel Styles */
-#LiteraryEras,
-#Poets,
-#Verses {
-  user-select: none !important;
-  .rtl.react-multiple-carousel__arrow--right {
-    left: 0 !important;
-  }
-
-  .react-multiple-carousel__arrow--left {
-    right: 0 !important;
-  }
-
-  .react-multiple-carousel__arrow--left,
-  .rtl.react-multiple-carousel__arrow--right {
-    @media screen and (max-width: 992px) {
-      display: none;
-    }
-  }
-}
-
-#LiteraryEras {
-  .react-multi-carousel-list {
-    overflow: unset !important;
-  }
-}
-#Verses {
-  .react-multi-carousel-track {
-    position: relative;
-  }
-
-  .react-multi-carousel-dot-list {
-    bottom: unset !important;
-    margin-top: 20px;
-  }
-  @media screen and (min-width: 992px) {
-    .react-multi-carousel-dot-lis {
-      display: none !important;
-    }
-  }
-
-  .react-multi-carousel-dot--active button {
-    background: var(--main-blue-color) !important;
-    border-color: #bb7165 !important;
-  }
-}
-
-#Poets {
-  .gbbKCs {
-    margin: 10px !important;
-  }
-}
-
-#Poets .rec .main_btn {
-  top: 25% !important;
-}
-
-/* // global scrollbar */
-body {
-  scrollbar-width: thin;
-}
-
-body::-webkit-scrollbar {
-  width: 13px;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: var(--main-blue-color) !important;
-  border-radius: 0px;
-}
-
-body::-webkit-scrollbar-track {
-  background-color: transparent;
-  border-radius: 0px;
-}
-
-.tools {
-  overflow: auto;
-  scrollbar-width: thin; /* Enable custom scrollbars in Firefox */
-}
-.tools::-webkit-scrollbar {
-  width: 6px; /* Adjust the width as needed */
-}
-
-.tools::-webkit-scrollbar-thumb {
-  background-color: #979bb6; /* Change the background color */
-  border-radius: 5px; /* Add rounded corners */
-}
-
-.tools::-webkit-scrollbar-track {
-  background-color: #b2b3b661 !important;
-  border-radius: 5px;
-}
-
-.disable_container {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-.disable_container_mobile {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-*/ .city-name {
+.city-name {
   background: #fff;
   color: #bb7165;
   font-size: 16px;
@@ -363,10 +249,10 @@ body::-webkit-scrollbar-track {
   }
 }
 @media screen and (max-width: 450px) {
-  svg.saudi-map {
-    width: 100%;
-    height: 100%;
-  }
+}
+svg.saudi-map {
+  width: 100%;
+  height: 100%;
 }
 
 #map-boxes {
