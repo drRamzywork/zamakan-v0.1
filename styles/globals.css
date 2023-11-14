@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --effra-font: __Effra_7d295b, __Effra_Fallback_7d295b;
   --effra-re: 400;
   --effra-Md: 500;
@@ -149,8 +149,7 @@ body::-webkit-scrollbar-track {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-
-.city-name {
+*/ .city-name {
   background: #fff;
   color: #bb7165;
   font-size: 16px;
